@@ -1,0 +1,42 @@
+body {
+
+        /******* TAG SELECTOR **********/
+
+            background-color: #EAF6F6;
+        }
+
+        hr {
+            border-color: grey;
+            background-color: #EAF6F6;
+            border-style: none none dotted none;
+            border-width: 5px;
+            height: 0px;
+            width: 5%;
+        }
+
+        table {
+            padding: 10px;
+        }
+
+        h1 {
+            color: #66BFBF;
+        }
+
+        h3 {
+            color: #66BFBF;
+        }
+
+        /******* CLASS SELECTOR **********/
+        /*** you can have as many elements assign dto the class ***/
+
+        .Name {
+            color: #66BFBF;
+        }
+
+
+        /******* ID SELECTOR **********/
+        /** heading must be unique per page, so you cant assign the the id to two or more elements if they are on the same page **/
+
+        #heading3 {
+            color: #66BFBF;
+        }
